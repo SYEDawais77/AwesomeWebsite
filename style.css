@@ -108,10 +108,10 @@
     font-weight: bold;
     color: #F9FAF8;
     padding-top: 0.8in;
-    padding-right:150px;
+    padding-right: 150px;
     padding-left: 150px;
     word-wrap: break-word;
-    
+
 }
 
 .website-sub-text {
@@ -124,7 +124,7 @@
     word-wrap: break-word;
 }
 
-.button{
+.button {
     background-color: #3882f6;
     border: 1px solid white;
     border-radius: 10px;
@@ -134,14 +134,47 @@
     padding: 5px 25px;
 }
 
-.img-1{
+.img-1 {
     padding-right: 100px;
 }
 
-.h5-text{
+.h5-text {
     color: white;
     text-align: center;
 }
 
+.second-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    padding: 0 150px 10px 15px;
+}
 
+.h1-text-second-container {
+    text-align: center;
+    padding-left: 150px;
+    padding-top: 0px;
+    align-items: center;
+}
 
+.third-flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E5E7EB;
+    padding: 0 150px 10px 15px;
+}
+
+.p-text-third-container {
+    padding: 150px;
+    text-align: center;
+}
+
+footer {
+    background-color: #192841;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
